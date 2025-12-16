@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>helpme | Tu Asistente Inteligente</title>
+    <!-- Modern Font: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Elements -->
+    <div class="background-glow top-right"></div>
+    <div class="background-glow bottom-left"></div>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">help<span class="highlight">me</span></div>
+            <ul class="nav-links">
+                <li><a href="#features">Características</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact" class="btn-secondary">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="badge">Versión preliminar</span>
+                <h1 class="hero-title">Ayuda psicológica instantánea,<br>cuando la necesitas.</h1>
+                <p class="hero-subtitle" style="color: #686565da;">La plataforma que conecta tus necesidades
+                    con soluciones
+                    inmediatas. Rápido, seguro y diseñado para ti.</p>
+                <div class="cta-group">
+                    <button onclick="window.location.href = 'login-page/login.html';" class="btn-primary">Comenzar Ahora
+                        <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-card float-animation">
+                    <i class="fa-solid fa-shield-halved icon-large"></i>
+                    <h3>Seguro</h3>
+                    <p>Protección total de tus datos</p>
+                </div>
+                <div class="glass-card float-animation delay-1">
+                    <i class="fa-solid fa-people-arrows icon-large"></i>
+                    <h3>Calidad</h3>
+                    <p>Los mejores psicólogos en la red</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="section-header">
+                <h2>¿Por qué helpme?</h2>
+                <p>Tecnología avanzada al servicio de tu estabilidad emocional.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-card hidden">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-brain"></i>
+                    </div>
+                    <h3>Chat con psicólogos certificados</h3>
+                    <p>Tu paz mental importa.</p>
+                </div>
+                <div class="feature-card hidden">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>Conectividad Global</h3>
+                    <p>Accede a nuestra red de soporte desde cualquier lugar del mundo.</p>
+                </div>
+                <div class="feature-card hidden">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3>Soporte 24/7</h3>
+                    <p>Estamos despiertos para que tú puedas descansar tranquilo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="features">
+            <div class="section-header">
+                <h2>¿Quiénes somos?</h2>
+                <p>Tecnología avanzada al servicio de la salud mental.</p>
+            </div>
+            <div class="company-info-grid">
+                <div class="glass-panel">
+                    <i class="fa-solid fa-rocket about-icon"></i>
+                    <h3>Nuestra Misión</h3>
+                    <p>Proveer una plataforma accesible y segura que conecte a las personas con profesionales de la
+                        salud mental, promoviendo el bienestar emocional a nivel global.</p>
+                </div>
+                <div class="glass-panel">
+                    <i class="fa-regular fa-lightbulb about-icon"></i>
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser la plataforma líder en salud mental digital, reconocida por su innovación, calidad de
+                        servicio y el impacto positivo en la vida de millones de personas.</p>
+                </div>
+                <div class="glass-panel">
+                    <i class="fa-solid fa-users-viewfinder about-icon"></i>
+                    <h3>Nuestro Equipo</h3>
+                    <p>Somos un grupo apasionado de tecnólogos, psicólogos y diseñadores dedicados a construir
+                        herramientas que faciliten el acceso a la ayuda profesional que todos merecen.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">helpme</div>
+            <p>&copy; 2024 HelpMe Inc. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
